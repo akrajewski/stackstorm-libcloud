@@ -7,6 +7,11 @@ credentials:
         "$ref": "#/properties/providers"
   additionalProperties: false
 
+foo:
+  type: "string"
+  required: true
+  default: "bar"
+
 providers:
   type: "object"
   properties:
